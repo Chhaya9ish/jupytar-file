@@ -1,7 +1,34 @@
 # jupytar-file
-Hii! showing my first chatbot app  created using codes of python along with generate AI.
-step-1: Importing the library  so that it's functions can be used .
-step-2:configuring API as API_key is important to interact between softwares.
-step-3:initializing the model i.e the brain we want to use in our created model i.e"gemoni-1.5-pro".
-step-4:Creating user_prompt , user Prompt is used to make input i.e what we want to our model do for us.
-Hence, i have a just started in python this is a simple app i created!
+🧮 AI Calculator App using Gemini API
+This is a simple AI-powered calculator built in Python using Google's Generative AI (Gemini 1.5 Pro). The app takes user input in natural language, sends it to the Gemini model, and returns a step-by-step explanation of the solution.
+
+🔧 Features
+Solve math problems using natural language
+
+Get step-by-step explanations
+
+Easy to use via Jupyter Notebook
+
+Uses google.generativeai with Gemini 1.5 Pro model
+
+▶️ How to Use
+Install the Google Generative AI Python package:
+
+bash
+Copy
+Edit
+pip install google-generativeai
+Set up your API key:
+
+python
+Copy
+Edit
+my_calcu.configure(api_key = "YOUR_API_KEY")
+Run the notebook cells and enter your math problem when prompted.
+
+📌 Example
+text
+Copy
+Edit
+Input: 5x + 10 = 30
+Output: Solved equation with step-by-step explanation
